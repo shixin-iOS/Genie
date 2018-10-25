@@ -1,0 +1,6 @@
+framework module Genie {
+  umbrella header "Genie-umbrella.h"
+
+  export *
+  module * { export * }
+}

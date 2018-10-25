@@ -1,0 +1,16 @@
+PODS:
+  - Genie (0.1.0)
+
+DEPENDENCIES:
+  - Genie (from `../`)
+
+EXTERNAL SOURCES:
+  Genie:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Genie: b358a2b866c44dabe6c04d6799ce1ed49d14c5ed
+
+PODFILE CHECKSUM: 513af136187fe3c5f3cd1bdc4063ef9131511560
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,22 @@
+{
+  "name": "Genie",
+  "version": "0.1.0",
+  "summary": "A short description of Genie.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AshineReal/Genie",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AshineReal": "758988371@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/AshineReal/Genie.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Genie/Classes/**/*"
+}
