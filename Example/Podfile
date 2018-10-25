@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Genie_Tests' do
+  pod 'Genie', :path => '../'
+  
+  
+end
