@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13AE116B9A8FCC0D00BF460F19DD834E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DCFCEC4E7F34E9731394AA48B42BF /* ReplaceMe.m */; };
 		21385EA9A4C12B9B12C4C33F407DF70D /* Pods-Genie_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8BB66498D567966A9A4161DFC5C147 /* Pods-Genie_Tests-dummy.m */; };
 		45420076179258EFD6301A01EC23D895 /* Pods-Genie_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A936D4DC3835EA79D5D00FC17A265B68 /* Pods-Genie_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EC5D5F0BCE0C6BCB0474B625FBCD563 /* Genie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BE11E3AEDAB01059074EB03243A9A2 /* Genie-dummy.m */; };
-		7252A5B51A5EA56F9D8D5D22660C2028 /* Genie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0B91D8750907B78C23C08865B0889C /* Genie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC5D5F0BCE0C6BCB0474B625FBCD563 /* Genie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 444229BE675F0B7E101A870B37B87FA1 /* Genie-dummy.m */; };
+		7252A5B51A5EA56F9D8D5D22660C2028 /* Genie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 193C6170654FDEC04372B1E57204563A /* Genie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7626D01F1B67E1C456861605A97AD80C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		976AA368D612CB7131A6355231A09FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -28,27 +29,29 @@
 /* Begin PBXFileReference section */
 		045CF6F3D6840034A14FC4051DF83692 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B7EEA0FA3F3BE9E20F27842828167B3 /* Pods-Genie_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Genie_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		277AB10D3EB84E2A69222CEE241BB743 /* Genie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Genie.xcconfig; sourceTree = "<group>"; };
-		2B0B91D8750907B78C23C08865B0889C /* Genie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Genie-umbrella.h"; sourceTree = "<group>"; };
-		2DFEFFD3169D92FFA939EC44EE5A9AE1 /* Pods_Genie_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Genie_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		193C6170654FDEC04372B1E57204563A /* Genie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Genie-umbrella.h"; sourceTree = "<group>"; };
+		2DFEFFD3169D92FFA939EC44EE5A9AE1 /* Pods_Genie_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Genie_Tests.framework; path = "Pods-Genie_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		324547E44F8765E4D0689EDE894735C7 /* Genie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Genie.xcconfig; sourceTree = "<group>"; };
 		32F2E57F962DB6C5D08DAACEED2F053D /* Pods-Genie_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Genie_Tests-resources.sh"; sourceTree = "<group>"; };
+		33D01214BDB4F6A58FF0F27BF5804474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EC466CDC7D22C228D59BE96EBA23E6 /* Genie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Genie-prefix.pch"; sourceTree = "<group>"; };
 		4244E8B532A388C10FEA8B129B509E5B /* Pods-Genie_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Genie_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		444229BE675F0B7E101A870B37B87FA1 /* Genie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Genie-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		720FBBD724754ACF031F23C2F12FA7CC /* Genie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74BE11E3AEDAB01059074EB03243A9A2 /* Genie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Genie-dummy.m"; sourceTree = "<group>"; };
-		88FC31F70C5AA29C860CA3182A5DF0D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		720FBBD724754ACF031F23C2F12FA7CC /* Genie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Genie.framework; path = Genie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800BE58568D768254A48150266AFCAF1 /* Genie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Genie.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95866448A356E5128EC73B5A9ACB658A /* Pods-Genie_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Genie_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B1CA81EB3980D9FAD25F12BC4E145D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988A3C6885454195413B1F6112961D7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A936D4DC3835EA79D5D00FC17A265B68 /* Pods-Genie_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Genie_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B167F544B5414449F6AECB5C5CFAE08F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BDD4FEF7A35904D027810E9FD721A877 /* Pods-Genie_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Genie_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C042E5832F4851BE709F4F93671D18B2 /* Pods-Genie_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Genie_Tests.modulemap"; sourceTree = "<group>"; };
-		CF7D7BDC9B9B48BF98305F8E9CBEBA85 /* Genie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Genie.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DBCDFA5F3D0A6652C00D1AAED3401340 /* Genie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Genie-prefix.pch"; sourceTree = "<group>"; };
 		DC9674942B3C00CA1FEEF1AD118544B4 /* Pods-Genie_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Genie_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCACBAC8EA5A01CB795AADBB3F95BB59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EEFBD38A0C347BA865285B5D2113FFE7 /* Genie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Genie.modulemap; sourceTree = "<group>"; };
+		E8177968E0A1C17BF192BD964B0BF9B5 /* Genie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genie.framework; path = Genie/Frameworks/Genie.framework; sourceTree = "<group>"; };
 		EF8BB66498D567966A9A4161DFC5C147 /* Pods-Genie_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Genie_Tests-dummy.m"; sourceTree = "<group>"; };
+		F5CB1DDB304D980E686B1881668D1ACF /* Genie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Genie.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF5DCFCEC4E7F34E9731394AA48B42BF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Genie/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,16 @@
 			path = "Target Support Files/Pods-Genie_Tests";
 			sourceTree = "<group>";
 		};
+		32224F7397876206ADE8EDCC8766EED8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F5CB1DDB304D980E686B1881668D1ACF /* Genie.podspec */,
+				B167F544B5414449F6AECB5C5CFAE08F /* LICENSE */,
+				988A3C6885454195413B1F6112961D7B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3AD93E373CB6748ED514B38D8C00DD52 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,47 +110,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		62A8B61F4810836C0F5424BFDE735036 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEFBD38A0C347BA865285B5D2113FFE7 /* Genie.modulemap */,
-				277AB10D3EB84E2A69222CEE241BB743 /* Genie.xcconfig */,
-				74BE11E3AEDAB01059074EB03243A9A2 /* Genie-dummy.m */,
-				DBCDFA5F3D0A6652C00D1AAED3401340 /* Genie-prefix.pch */,
-				2B0B91D8750907B78C23C08865B0889C /* Genie-umbrella.h */,
-				9B1CA81EB3980D9FAD25F12BC4E145D0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Genie";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8D834A4FC26A3B8504ECC0653736EC1B /* Development Pods */,
+				FA3244BB1EEBC1A9890DD612D99BFF76 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D5B86C856BFA38CA8D5D91750780A2F3 /* Products */,
 				3AD93E373CB6748ED514B38D8C00DD52 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D834A4FC26A3B8504ECC0653736EC1B /* Development Pods */ = {
+		800BB94DBCF77960888D5CABC6D3F79A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DEDE31A733FEFC8CBEE22BBEE38D0D9D /* Genie */,
+				E8177968E0A1C17BF192BD964B0BF9B5 /* Genie.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A1D07FD7AE8FF9912BE8BAF5F428FC89 /* Pod */ = {
+		AF5693A10A3CFB330E88489B5385D0B2 /* Genie */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D7BDC9B9B48BF98305F8E9CBEBA85 /* Genie.podspec */,
-				88FC31F70C5AA29C860CA3182A5DF0D4 /* LICENSE */,
-				DCACBAC8EA5A01CB795AADBB3F95BB59 /* README.md */,
+				FF5DCFCEC4E7F34E9731394AA48B42BF /* ReplaceMe.m */,
+				800BB94DBCF77960888D5CABC6D3F79A /* Frameworks */,
+				32224F7397876206ADE8EDCC8766EED8 /* Pod */,
+				FC7E55D6D35FE98D73D3446A65E75061 /* Support Files */,
 			);
-			name = Pod;
+			name = Genie;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -165,14 +166,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEDE31A733FEFC8CBEE22BBEE38D0D9D /* Genie */ = {
+		FA3244BB1EEBC1A9890DD612D99BFF76 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1D07FD7AE8FF9912BE8BAF5F428FC89 /* Pod */,
-				62A8B61F4810836C0F5424BFDE735036 /* Support Files */,
+				AF5693A10A3CFB330E88489B5385D0B2 /* Genie */,
 			);
-			name = Genie;
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FC7E55D6D35FE98D73D3446A65E75061 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				800BE58568D768254A48150266AFCAF1 /* Genie.modulemap */,
+				324547E44F8765E4D0689EDE894735C7 /* Genie.xcconfig */,
+				444229BE675F0B7E101A870B37B87FA1 /* Genie-dummy.m */,
+				38EC466CDC7D22C228D59BE96EBA23E6 /* Genie-prefix.pch */,
+				193C6170654FDEC04372B1E57204563A /* Genie-umbrella.h */,
+				33D01214BDB4F6A58FF0F27BF5804474 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Genie";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC5D5F0BCE0C6BCB0474B625FBCD563 /* Genie-dummy.m in Sources */,
+				13AE116B9A8FCC0D00BF460F19DD834E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +304,7 @@
 /* Begin XCBuildConfiguration section */
 		112D7327E7DB52C6D0777F2B733F31B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 277AB10D3EB84E2A69222CEE241BB743 /* Genie.xcconfig */;
+			baseConfigurationReference = 324547E44F8765E4D0689EDE894735C7 /* Genie.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -417,7 +431,7 @@
 		};
 		8E8306121567CC4D299A72874B4812EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 277AB10D3EB84E2A69222CEE241BB743 /* Genie.xcconfig */;
+			baseConfigurationReference = 324547E44F8765E4D0689EDE894735C7 /* Genie.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

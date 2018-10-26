@@ -31,7 +31,8 @@ A base communication framework of CubeEngine
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Genie/Classes/**/*'
-  
+  s.vendored_frameworks = 'Genie/Frameworks/*.framework'
+
   # s.resource_bundles = {
   #   'Genie' => ['Genie/Assets/*.png']
   # }

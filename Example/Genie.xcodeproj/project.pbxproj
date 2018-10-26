@@ -191,6 +191,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Genie_Tests/Pods-Genie_Tests-frameworks.sh",
+				"${PODS_ROOT}/../../Genie/Frameworks/Genie.framework",
 				"${BUILT_PRODUCTS_DIR}/Genie/Genie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
