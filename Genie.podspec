@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Genie'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A base communication framework'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A base communication framework of CubeEngine
                        DESC
 
-  s.homepage         = 'https://github.com/AshineReal/Genie'
+  s.homepage         = 'https://github.com/shixin-iOS/Genie'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AshineReal' => '758988371@qq.com' }
-  s.source           = { :git => 'https://github.com/AshineReal/Genie.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shixin-iOS/Genie.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
